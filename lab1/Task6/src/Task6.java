@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task6 {
 	public static void main(String[] args) {
+		//Ввід
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Уведіть масив чисел: ");
 		
@@ -12,14 +13,18 @@ public class Task6 {
 		for (int i = 0; i < line.length; i++)
 			ar[i] = Double.parseDouble(line[i]);
 		
+		//Пошук найбільшого
 		int imax = 0;
 		for (int i = 0; i < ar.length; i++)
 			if (ar[i] > ar[imax])
 				imax = i;
 		
+		//Сортування за збільшенням
 		Arrays.sort(ar, 0, imax);
-		Arrays.sort(ar, imax+1, ar.length, Collections.reverseOrder());
+		//Сортування за зменшенням
+		Arrays.sort(ar, imax + 1, ar.length, Collections.reverseOrder());
 		
+		//Вивід
 		for (double a : ar) System.out.print(a + " ");
 	}
 }

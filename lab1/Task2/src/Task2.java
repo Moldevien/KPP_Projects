@@ -9,47 +9,37 @@ public class Task2 {
 		try {
 			Load();
 			
+			//Перевірка файлу
 			int speed;
 			if (mas < 0 || gas < 0 || ab < 0 || bc < 0) {
 				System.out.println("Помилка у файлі");
 				return;
 			}
 			
+			//Вивід інформації
 			System.out.println("відтань від A до B: " + ab);
 			System.out.println("відтань від B до C: " + bc);
 			System.out.println("Об'єм топлива: " + gas);
 			System.out.println("Маса вантажу: " + mas);
 			
+			//Пошук швидкості
 			switch (mas / 500) {
-				case 1: {
-					speed = 1;
-					break;
-				}
-				case 2: {
-					speed = 4;
-					break;
-				}
-				case 3: {
-					speed = 7;
-					break;
-				}
-				case 4: {
-					speed = 9;
-					break;
-				}
-				default: {
-					System.out.println("Літак не полетить");
-					return;
-				}
+				case 1: { speed = 1; break;	}
+				case 2: { speed = 4; break;	}
+				case 3: { speed = 7; break;	}
+				case 4: { speed = 9; break;	}
+				default: { System.out.println("Літак не полетить"); return; }
 			}
 			
 			System.out.println("Швидкість: " + speed);
 			
+			//Переліт 1
 			if (speed * gas < ab) {
 				System.out.println("Літаку не хватило топлива що долетіти до пункту B");
 				return;
 			}
 			
+			//Перевірка
 			System.out.println("Літаку хватило топлива що долетіти до пункту B");
 			
 			gas -= ab / speed;
@@ -64,6 +54,7 @@ public class Task2 {
 			else
 				System.out.println("Літаку було дозаправлено: " + (a - gas) + " літрів");
 			
+			//Переліт 2
 			if (speed * a < bc) {
 				System.out.println("Літаку не хватило топлива що долетіти до пункту D");
 				return;
@@ -75,6 +66,7 @@ public class Task2 {
 		}
 	}
 	
+	//Робота з файлом
 	public static void Load() {
 		try (Scanner scanner = new Scanner(new FileReader("data.txt"))) {
 			ab = Integer.parseInt(scanner.nextLine());
