@@ -14,10 +14,10 @@ public class Task1 {
 			for (int i = 0; i < line.length; i++)
 				a[i] = Integer.parseInt(line[i]);
 			
-			a = Arrays.stream(a).sorted().toArray();
-			
 			//Нормалізація
 			System.out.print("Проведемо нормалізацію: ");
+			a = Arrays.stream(a).sorted().toArray();
+			
 			for (int b : a)
 				System.out.print(b + " ");
 			
