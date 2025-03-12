@@ -3,19 +3,24 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/KPP_Projects.iml" filepath="$PROJECT_DIR$/.idea/KPP_Projects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab1/Task1/Task1.iml" filepath="$PROJECT_DIR$/lab1/Task1/Task1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab1/Task2/Task2.iml" filepath="$PROJECT_DIR$/lab1/Task2/Task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Task1_1/Task1_1.iml" filepath="$PROJECT_DIR$/lab1/Task1_1/Task1_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Task1_2/Task1_2.iml" filepath="$PROJECT_DIR$/lab1/Task1_2/Task1_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Task1_3/Task1_3.iml" filepath="$PROJECT_DIR$/lab1/Task1_3/Task1_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Task1_4/Task1_4.iml" filepath="$PROJECT_DIR$/lab1/Task1_4/Task1_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Task1_5/Task1_5.iml" filepath="$PROJECT_DIR$/lab1/Task1_5/Task1_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Task1_6/Task1_6.iml" filepath="$PROJECT_DIR$/lab1/Task1_6/Task1_6.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/Task2_1/Task2_1.iml" filepath="$PROJECT_DIR$/lab2/Task2_1/Task2_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/Task2_2/Task2_2.iml" filepath="$PROJECT_DIR$/lab2/Task2_2/Task2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/Task2_3/Task2_3.iml" filepath="$PROJECT_DIR$/lab2/Task2_3/Task2_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/Task2_4/Task2_4.iml" filepath="$PROJECT_DIR$/lab2/Task2_4/Task2_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/Task2_5/Task2_5.iml" filepath="$PROJECT_DIR$/lab2/Task2_5/Task2_5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab1/Task3/Task3.iml" filepath="$PROJECT_DIR$/lab1/Task3/Task3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab1/Task4/Task4.iml" filepath="$PROJECT_DIR$/lab1/Task4/Task4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab1/Task5/Task5.iml" filepath="$PROJECT_DIR$/lab1/Task5/Task5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab1/Task6/Task6.iml" filepath="$PROJECT_DIR$/lab1/Task6/Task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/Task3_1/Task3_1.iml" filepath="$PROJECT_DIR$/lab3/Task3_1/Task3_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/Task3_2/Task3_2.iml" filepath="$PROJECT_DIR$/lab3/Task3_2/Task3_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/Task3_3/Task3_3.iml" filepath="$PROJECT_DIR$/lab3/Task3_3/Task3_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/Task3_4/Task3_4.iml" filepath="$PROJECT_DIR$/lab3/Task3_4/Task3_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/lab2.iml" filepath="$PROJECT_DIR$/lab2/lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
     </modules>
   </component>
 </project>

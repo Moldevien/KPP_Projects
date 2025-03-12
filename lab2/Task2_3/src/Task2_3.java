@@ -25,21 +25,25 @@ public class Task2_3 {
 			else if (specialChars.indexOf(c) != -1) special = true;
 		}
 		
+		//є великі літери
 		if (!bigLetter) {
 			System.out.println("Пароль не має малих літер");
 			return;
 		}
 		
+		//є малі літери
 		if (!smallLetter) {
 			System.out.println("Пароль не має великих літер");
 			return;
 		}
 		
+		//є числа
 		if (!number) {
 			System.out.println("Пароль не має числа");
 			return;
 		}
 		
+		//є спеціальні символи
 		if (!special) {
 			System.out.println("Пароль не має спеціального символу (!*_. )");
 			return;
