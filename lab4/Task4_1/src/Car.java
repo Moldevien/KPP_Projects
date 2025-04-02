@@ -1,11 +1,9 @@
+import java.io.*;
 import java.time.LocalDate;
 
-// Предметна область: оренда автомобілів, клас: автомобіль, орієнтовний перелік полів:
-// марка автомобіля, номерний знак, рік випуску, автомобіль орендовано (так/ні), дата оренди, термін оренди.
-// Вивести окремо список вільних та окремо список орендованих автомобілів.
-// Реалізувати пошук автомобілів, що звільняться з оренди у вказаному місяці.
-
-public class Car {
+public class Car implements Serializable, Comparable<Car> {
+	private static final long serialVersionUID = 1L;
+	
 	private String brand;
 	private String license_plate;
 	private int year;
@@ -106,5 +104,33 @@ public class Car {
 				+ year + "\t\t|\t"
 				+ (rented ? "так\t\t|\t" + date + "\t|\t" + termin + " днів"
 				: "\t\t|\t\t\t\t|");
+	}
+	
+	@Override
+	public int compareTo(Car other) {
+		int result = this.year - other.year;
+		if (result == 0) result = this.termin - other.termin;
+		if (result == 0) result = license_plate.compareTo(other.license_plate);
+		return result;
+	}
+	
+	// Метод для запису масиву автомобілів у файл
+	public static void saveToFile(String filename, Car[] cars) {
+		try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filename))) {
+			out.writeObject(cars);
+			System.out.println("Дані успішно збережені у файл.");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	// Метод для читання масиву автомобілів з файлу
+	public static Car[] loadFromFile(String filename) {
+		try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename))) {
+			return (Car[]) in.readObject();
+		} catch (IOException | ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		return new Car[0];
 	}
 }

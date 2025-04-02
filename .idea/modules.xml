@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lab3/DopTask/DopTask.iml" filepath="$PROJECT_DIR$/lab3/DopTask/DopTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/KPP_Projects.iml" filepath="$PROJECT_DIR$/.idea/KPP_Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab1/Task1_1/Task1_1.iml" filepath="$PROJECT_DIR$/lab1/Task1_1/Task1_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab1/Task1_2/Task1_2.iml" filepath="$PROJECT_DIR$/lab1/Task1_2/Task1_2.iml" />
@@ -18,9 +19,13 @@
       <module fileurl="file://$PROJECT_DIR$/lab3/Task3_2/Task3_2.iml" filepath="$PROJECT_DIR$/lab3/Task3_2/Task3_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/Task3_3/Task3_3.iml" filepath="$PROJECT_DIR$/lab3/Task3_3/Task3_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/Task3_4/Task3_4.iml" filepath="$PROJECT_DIR$/lab3/Task3_4/Task3_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4/Task4_1/Task4_1.iml" filepath="$PROJECT_DIR$/lab4/Task4_1/Task4_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4/Task4_2/Task4_2.iml" filepath="$PROJECT_DIR$/lab4/Task4_2/Task4_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4/Task4_3/Task4_3.iml" filepath="$PROJECT_DIR$/lab4/Task4_3/Task4_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2/lab2.iml" filepath="$PROJECT_DIR$/lab2/lab2.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4/lab4.iml" filepath="$PROJECT_DIR$/lab4/lab4.iml" />
     </modules>
   </component>
 </project>
