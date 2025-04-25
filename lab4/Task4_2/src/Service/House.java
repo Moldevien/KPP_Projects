@@ -1,7 +1,6 @@
 package Service;
 
 import Interface.IPart;
-import Model.House.*;
 
 import java.util.ArrayList;
 import java.util.List;
